@@ -30,7 +30,7 @@ if (city && cities[city.toLowerCase()]) {
 } else if (query) {
   cityContent.textContent = `Результати пошуку за запитом: "${query}"`;
 } else {
-  cityContent.textContent = 'Оберіть місто або введіть пошуковий запит у адресному рядку.';
+  cityContent.textContent = 'Ми раді до вас приїхати';
 }
 
 // Показати футер після завантаження сторінки
